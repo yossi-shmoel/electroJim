@@ -29,6 +29,8 @@
               "src/assets/mocks/images"
             ],
             "styles": [
+              "./node_modules/froala-editor/css/froala_editor.pkgd.min.css",
+              "./node_modules/froala-editor/css/froala_style.min.css",
               "src/styles.scss"
             ],
             "scripts": []
