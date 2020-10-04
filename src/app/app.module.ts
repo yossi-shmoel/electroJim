@@ -20,8 +20,7 @@ import { SharedModule } from './modules/shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     ArticleModule,
-    FroalaEditorModule.forRoot(),
-    FroalaViewModule.forRoot(),
+    SharedModule
   ],
   providers: [],
   exports: [],

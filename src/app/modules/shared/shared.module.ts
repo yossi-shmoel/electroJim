@@ -7,9 +7,12 @@ import { SharedComponent } from './shared.component';
 import 'froala-editor/js/plugins.pkgd.min.js';
 import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
 
+
 @NgModule({
   imports: [
     CommonModule,
+    FroalaEditorModule.forRoot(),
+    FroalaViewModule.forRoot(),
   ],
   declarations: [SharedComponent, PhotosHorizontalScrollComponent, TextEditorComponent],
   exports: [PhotosHorizontalScrollComponent, TextEditorComponent]

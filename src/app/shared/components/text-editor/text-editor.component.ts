@@ -9,10 +9,17 @@ export class TextEditorComponent implements OnInit {
 
   constructor() { }
 
-  
+
   ngOnInit(): void {
   }
 
- 
+  public getOptions(): object {
+
+    return {
+      placeholder: 'I am an input!',
+      charCounterCount: true
+    };
+
+  }
 
 }
